@@ -1,13 +1,14 @@
 {
 	"name": "easy-rename",
 	"version": "1.0.0",
-	"description": "Prettify for filenames",
+	"description": "Prettifier for filenames.",
 	"main": "index.js",
 	"repository": "https://github.com/marcker/easy-rename.git",
 	"keywords": [
 		"filename",
 		"rename",
 		"prettify",
+		"prettifier",
 		"command-line"
 	],
 	"author": {
