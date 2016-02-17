@@ -1,6 +1,6 @@
 {
   "name": "easy-rename",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Prettifier for filenames.",
   "main": "index.js",
   "repository": "marcker/easy-rename",
