@@ -27,7 +27,7 @@ $ npm i -g easy-rename
 ```
 
 ```bash
-$ easy-rename BaD\ FileName\ \(\1\)\ \(\1\)\ \(\1\).clj
+$ easy-rename BaD\ FileName\ \(1\)\ \(1\)\ \(1\).clj
 # => bad_filename_1_1_1.clj
 
 $ easy-rename "BaD FileName (1) (1) (1).clj"
