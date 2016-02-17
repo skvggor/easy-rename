@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Prettifier for filenames.",
   "main": "index.js",
-  "repository": "https://github.com/marcker/easy-rename.git",
+  "repository": "marcker/easy-rename",
   "keywords": [
     "filename",
     "rename",
@@ -16,15 +16,14 @@
     "email": "marckfree@gmail.com",
     "url": "http://marcker.github.com"
   },
+  "bin": "cli.js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcker/easy-rename/issues"
   },
   "homepage": "https://github.com/marcker/easy-rename",
   "devDependencies": {
-    "diacritics": "^1.2.3"
-  },
-  "dependencies": {
+    "diacritics": "^1.2.3",
     "meow": "^3.7.0"
   }
 }
