@@ -1,32 +1,32 @@
 {
-	"name": "easy-rename",
-	"version": "1.0.1",
-	"description": "Prettifier for filenames.",
-	"main": "index.js",
-	"repository": "marcker/easy-rename",
-	"keywords": [
-		"cli",
-		"filename",
-		"rename",
-		"prettify",
-		"prettifier",
-		"command-line"
-	],
-	"author": {
-		"name": "Marcos Garcia de Lima",
-		"email": "marckfree@gmail.com",
-		"url": "http://marcker.github.com"
-	},
-	"bin": {
-		"easy-rename": "cli.js"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/marcker/easy-rename/issues"
-	},
-	"homepage": "https://github.com/marcker/easy-rename",
-	"dependencies": {
-		"diacritics": "^1.2.3",
-		"meow": "^3.7.0"
-	}
+  "name": "easy-rename",
+  "version": "1.0.2",
+  "description": "Prettifier for filenames.",
+  "main": "index.js",
+  "repository": "marcker/easy-rename",
+  "keywords": [
+    "cli",
+    "filename",
+    "rename",
+    "prettify",
+    "prettifier",
+    "command-line"
+  ],
+  "author": {
+    "name": "Marcos Garcia de Lima",
+    "email": "marckfree@gmail.com",
+    "url": "http://marcker.github.com"
+  },
+  "bin": {
+    "easy-rename": "cli.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcker/easy-rename/issues"
+  },
+  "homepage": "https://github.com/marcker/easy-rename",
+  "dependencies": {
+    "diacritics": "^1.2.3",
+    "meow": "^3.7.0"
+  }
 }
