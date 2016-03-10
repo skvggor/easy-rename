@@ -2,10 +2,10 @@
 
 'use strict';
 
-var meow = require('meow');
-var easyRename = require('./');
+const meow = require('meow');
+const easyRename = require('./');
 
-var cli = meow({
+const cli = meow({
 	help: [
 		'Usage: ',
 		'$ easy-rename \'your bad text\''

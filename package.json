@@ -17,6 +17,9 @@
     "email": "marckfree@gmail.com",
     "url": "http://marcker.github.com"
   },
+  "scripts": {
+	"test": "mocha test.js"
+  },
   "bin": {
     "easy-rename": "cli.js"
   },
@@ -28,5 +31,8 @@
   "dependencies": {
     "diacritics": "^1.2.3",
     "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
