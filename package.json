@@ -17,8 +17,15 @@
     "email": "marckfree@gmail.com",
     "url": "http://marcker.github.com"
   },
+  "xo": {
+    "esnext": true,
+    "globals": [
+      "describe",
+      "it"
+    ]
+  },
   "scripts": {
-	"test": "mocha test.js"
+    "test": "xo && mocha test.js"
   },
   "bin": {
     "easy-rename": "cli.js"
@@ -33,6 +40,7 @@
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "xo": "^0.13.0"
   }
 }

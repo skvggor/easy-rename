@@ -12,6 +12,6 @@ function easyRename(filename) {
 		.replace(/\W/gi, '')
 		.replace(fileFormat, `.${fileFormat}`)
 		.toLowerCase();
-};
+}
 
 module.exports = easyRename;
